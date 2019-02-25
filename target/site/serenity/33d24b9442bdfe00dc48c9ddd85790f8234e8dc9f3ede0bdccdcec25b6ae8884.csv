@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Second serenity test","This is a failing test","FAILURE","2019-02-24T13:14:49.857-05:00[America/New_York]","0.0","6.56"
+"Second serenity test","This is a pending test","PENDING","2019-02-24T13:14:57.079-05:00[America/New_York]","0.0","0.38"
+"Second serenity test","This is a manual test","PENDING","2019-02-24T13:14:57.471-05:00[America/New_York]","0.0","0.0"
+"Second serenity test","This is a test with error","ERROR","2019-02-24T13:14:57.878-05:00[America/New_York]","0.0","0.41"
+"Second serenity test","File does not exist","COMPROMISED","2019-02-24T13:14:58.299-05:00[America/New_York]","0.0","0.36"
+"Second serenity test","This is an ignored test","IGNORED","2019-02-24T13:14:58.664-05:00[America/New_York]","0.0","0.31"
+"Second serenity test","Get all students","SUCCESS","2019-02-24T13:14:58.979-05:00[America/New_York]","0.0","0.45"

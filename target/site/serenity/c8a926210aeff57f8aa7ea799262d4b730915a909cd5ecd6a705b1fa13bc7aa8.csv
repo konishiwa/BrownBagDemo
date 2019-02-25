@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Second serenity test","This is a test with error","ERROR","2019-02-24T13:14:57.878-05:00[America/New_York]","0.0","0.41"
+"First serenity test","This is a test with error","ERROR","2019-02-24T13:15:09.867-05:00[America/New_York]","0.0","0.34"

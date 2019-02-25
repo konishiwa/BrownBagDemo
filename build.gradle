@@ -1,0 +1,43 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath('net.serenity-bdd:serenity-gradle-plugin:2.0.33')    
+    }
+}
+
+ext {
+    serenityVersion = "2.0.33"
+    cucumberVersion = "1.2.5"
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'                             
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+    compile group: 'info.cukes', name: 'cucumber-java', version: cucumberVersion
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: cucumberVersion
+    // latest serenity-cucumber version: '1.9.23' causes initialization error when running tests
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.5.7'
+    compile group: 'net.serenity-bdd', name: 'serenity-core', version: serenityVersion
+    compile group: 'net.serenity-bdd', name: 'serenity-gradle-plugin', version: serenityVersion
+    compile group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: serenityVersion
+    compile group: 'net.serenity-bdd', name: 'serenity-junit', version: serenityVersion
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
+    compile group: 'javax.json', name: 'javax.json-api', version: '1.0'
+    
+    
+}
+gradle.startParameter.continueOnFailure = true 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.studentinfo.SecondSerenityTest" skipped="4" tests="7" time="8.47" timestamp="2019-02-24 01:14:49"><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="This is a failing test"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.SecondSerenityTest.thisIsAFailingTest(SecondSerenityTest.java:56)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="This is a test with error"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.studentinfo.SecondSerenityTest.thisIsATestWithError(SecondSerenityTest.java:73)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="File does not exist"><compromised message="E:\Ruby.text (The system cannot find the path specified)" type="java.io.FileNotFoundException">E:\Ruby.text (The system cannot find the path specified)</compromised><system-err>E:\Ruby.text (The system cannot find the path specified)&#13;
+com.studentapp.junit.studentinfo.SecondSerenityTest.fileDoesNotExist(SecondSerenityTest.java:79)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="This is an ignored test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SecondSerenityTest" name="Get all students"/></testsuite>
